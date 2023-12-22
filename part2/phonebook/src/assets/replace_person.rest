@@ -1,0 +1,7 @@
+PUT http://localhost:3001/api/persons/961
+
+{
+    "name":"a",
+    "number":"12",
+    "id":"961a",
+}
