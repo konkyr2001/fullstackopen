@@ -104,7 +104,7 @@ app.post('/api/persons', (request, response, next) => {
         response.status(404).json({ error: 'number must be defined!' }).end()
         return
     }
-
+    
     PersonNote.findOne({name: newPerson.name})
         .then(result => {
             if (result) { // replace the number of the current name
