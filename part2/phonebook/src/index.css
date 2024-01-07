@@ -1,0 +1,15 @@
+.success {
+    background-color: rgb(220,220,220);
+    border: 3px solid rgb(0, 160, 0);
+    color: rgb(0, 160, 0);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.remove {
+    background-color: rgb(220,220,220);
+    border: 3px solid rgb(240, 0, 0);
+    color: rgb(240, 0, 0);
+    font-size: 25px;
+    padding: 10px;
+}
